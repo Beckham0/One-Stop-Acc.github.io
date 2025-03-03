@@ -1,0 +1,10 @@
+.jc-end{
+    justify-content: end;
+  display: flex;
+}
+
+.font_w{
+    color: aliceblue;
+    font-weight: normal;
+
+}

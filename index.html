@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าเว็บตัวอย่าง</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/manu.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
@@ -15,40 +17,66 @@
 </head>
 <body >
    
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: sticky;top: 0;z-index: 999;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+      <nav class="navbar navbar-expand-lg p-0 " style="position: sticky;top: 0;z-index: 999;">
+        <div class="container-fluid p-0" style="display: flex;flex-direction: column;width: 100%;">
+
+
+          <div id="navbarNav1"  class=" navbarNav collapse navbar-collapse w-100 " style="background: linear-gradient(to right,#053860 40%,#0b65ac,#053560 );justify-content: end;margin-right: 1rem; overflow: hidden; height: 0px; transition:height 0.5s ease-out;" >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
-              </li>
+                <a class="nav-link active p-1" aria-current="page" href="#">translate</a>
+              </li>     
               <li class="nav-item">
-                <a class="nav-link" href="#">OUR TEAM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link p-1" href="#">TH</a>
               </li>
             
               <li class="nav-item">
-                <a class="nav-link" href="#">COSTUMER</a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link p-1" href="#">EN</a>
               </li>
             
             </ul>
           </div>
+         
+          <div style="display: grid;grid-template-columns: 3fr 20fr;width: 100%;justify-content: center;align-items: center; background:rgba(0,0,0,0.5); ">
+           <div style="justify-content: center;display: flex;"> <img class="navbar-brand" src="./Sorce/Logo/IMG_1450-1.png" alt="" style="width: 4rem;"></div>
+          
+          <div class="jc-end navbar-toggler" style="border: none;">    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>      
+          </div>
+          
+
+           <div class="collapse navbar-collapse w-100" style="justify-content: end;" id="navbarNav">
+             <ul class="navbar-nav manu_bar">
+               <li class="nav-item">
+                 <a class="mx-3 my-auto nav-link active" aria-current="page" href="#">ABOUT US</a>
+               </li>
+               <li class="nav-item">
+                 <a class="mx-3 my-auto nav-link" href="#">OUR TEAM</a>
+               </li>
+               <li class="nav-item">
+                 <a class="mx-3 my-auto nav-link" href="#">SERVICES</a>
+               </li>
+             
+               <li class="nav-item">
+                 <a class="mx-3 my-auto nav-link" href="#">COSTUMER</a>
+               </li>
+             
+               <li class="nav-item">
+                 <a class="mx-3 my-auto nav-link" href="#">CONTACT</a>
+               </li>
+             
+             </ul>
+           </div>
+          </div>
+         
         </div>
       </nav>
    
   
 <section>
-  <div id="carouselExampleAutoplaying" class="carousel slide " > <!-- data-bs-ride="carousel" -->
+  <div id="carouselExampleAutoplaying" class="carousel slide " style="margin-top: -85px;"> <!-- data-bs-ride="carousel" -->
 
     <!-- <div id="carouselExampleCaptions" class="carousel slide"> -->
 
@@ -58,7 +86,7 @@
       
           <div class="carousel-item active" style="display: grid;grid-template-columns: 2fr 1fr; height: 50vw; ">
             <div id="carousel_inner" class="card1_2" ></div>
-            <div style="text-align: center;align-items: center;display: flex;justify-content: center;">
+            <div style="text-align: center;align-items: center;display: flex;justify-content: center; z-index: 5;">
                 <h1 class="text_card1">ONE STOP
                  <br> ACCOUNTTING CO.,LTD</h1>
             </div>
@@ -101,6 +129,7 @@
 </body>
 <script>
     const carousel = document.getElementById('carousel_inner');
+    const navbarNav = document.getElementById('navbarNav1');
     let prevScrollPos = window.pageYOffset;
 
     window.onscroll = function() {
@@ -109,9 +138,11 @@
       if (prevScrollPos > currentScrollPos) {
         // เลื่อนขึ้น ทำให้ carousel ติด
         carousel.classList.add('fixed');
+        navbarNav.classList.add('navbarNav');
       } else {
         // เลื่อนลง ทำให้ carousel ไม่ติด
         carousel.classList.remove('fixed');
+        navbarNav.classList.remove('navbarNav');
       }
 
       prevScrollPos = currentScrollPos;

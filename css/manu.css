@@ -1,0 +1,17 @@
+.navbar-toggler-icon {
+    filter: invert(100%);
+  }
+.nav-link{
+    color: aliceblue !important;
+    font-weight: normal !important;
+    
+}
+
+.manu_bar a{
+    font-size: 1.2rem;
+}
+
+.navbarNav{
+    height: 30px !important;
+    transition:height 1s ease-out;
+}
