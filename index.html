@@ -37,8 +37,8 @@
             </ul>
           </div>
          
-          <div style="display: grid;grid-template-columns: 3fr 20fr;width: 100%;justify-content: center;align-items: center; background:rgba(0,0,0,0.5); ">
-           <div style="justify-content: center;display: flex;"> <img class="navbar-brand" src="./Sorce/Logo/IMG_1450-1.png" alt="" style="width: 4rem;"></div>
+          <div class="nav_small" >
+           <div style="justify-content: center;display: flex;"> <img class="navbar-brand" src="./Sorce/Logo/IMG_1450-1.png" alt="" style="width: 4rem;margin-left: 5rem;"></div>
           
           <div class="jc-end navbar-toggler" style="border: none;">    
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,7 +97,7 @@
             <div style="display: grid;grid-template-columns: 2fr 1fr; height: 50vw; ">
               <div style="text-align: center;align-items: center;display: flex;justify-content: center;">
                 <div id="carousel_inner2" class="card1_2" style="top: -1.5rem;transition:top 1s ease-in-out ;"></div>
-                <h1 class="text_card2 " style="position: relative;"><img src="/Sorce/Logo/IMG_1484_1.PNG" alt="" srcset="" style="width: 39%;min-width: 240px;position: absolute;top: 0;right: 0;"> <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 1.5em;display: contents;color: #f6d26a;">อ</span>งค์ความรู้ทีแพงทีสุดคือ
+                <h1 class="text_card2 " style="position: relative; font-size: clamp(15px,4.5vw,30px);"><img src="/Sorce/Logo/IMG_1484_1.PNG" alt="" srcset="" style="width: 39%;min-width: 240px;position: absolute;top: 0;right: 0;"> <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 1.5em;display: contents;color: #f6d26a;">อ</span>งค์ความรู้ทีแพงทีสุดคือ
                   <br>“ประสบการณ์ และ <span style="color: #f6d26a;display: contents;">ความรู้</span>”</h1>
               </div>
               <!-- <img src="./Sorce/IMG_1441.PNG" class="d-block " alt="..." style="right: 0;position: absolute;bottom: 0;opacity: 0.9;width: 45%;"> -->
@@ -130,10 +130,10 @@
       </div>
 </section>
 
-<section  style="display: grid; grid-template-columns: 65% 35%; width: 95%; margin: auto; margin-top: 10%;">
-  <div class="section2 container">  
-  <h1 style="height: 30%;align-content: center;text-align: center;color: #f3f3f3;font-size: 4rem;font-weight: bold;">ABOUT US</h1>
-    <h4 style="border-top: 2px dotted #c0d3e5;padding: 2rem; text-align: center;line-height: 1.3;">บริษัท วัน สต๊อป แอคเคาท์ติง จํากัด ประกอบธุรกิจเกียวกับบัญชี การตรวจสอบบัญชี การให้คําปรึกษา
+<section class="section_2" >
+  <div class="section2 container" style="padding-bottom: 3rem;">  
+  <h1 style="height: 30%;align-content: center;text-align: center;color: #f3f3f3;font-size: 4rem;font-weight: bold; font-size: clamp(30px,4.5vw,60px);">ABOUT US</h1>
+    <h4 style="border-top: 2px dotted #c0d3e5;padding: 2rem; text-align: center;line-height: 1.3; font-size: clamp(15px,4.5vw,25px);">บริษัท วัน สต๊อป แอคเคาท์ติง จํากัด ประกอบธุรกิจเกียวกับบัญชี การตรวจสอบบัญชี การให้คําปรึกษา
       ด้านภาษี รวมถึงให้บริการจดจัดตังนิติบุคคล การจดทะเบียนต่างๆต่อหน่วยงานราชการ<br> และให้บริการด้านการ
       ขอใบอนุญาตทํางานสําหรับชาวต่างชาติ(Visa, Work Permit) ที่มาทํางานในประเทศไทย บริษัทฯให้ความสําคัญ
       ในทุกๆขันตอนการปฎิบัติงาน จึงมีการตรวจสอบโดยบุคลากรทีมีประสบการณ์และความชํานาญ บริษัทฯมีความมุ่ง
@@ -141,12 +141,35 @@
     </h4>
   </div >
   <div class="center">
-    <div class="img_card2"><img src="./Sorce/Logo/picture3.png" style="width: 24%;position: absolute;"></div>
+    <div class="img_card2"><img src="./Sorce/Logo/picture3.png" style="width: 24%;position: absolute;min-width: 218px;" class="img_main"></div>
   </div>
 </section>
 
-<section style="margin-top: 15%; height: 40vw; width: 100%;">
-  
+<h1 class="our_team">OUR TEAM</h1>
+
+<section class="section_3" >
+  <div style="display: grid;  width: 100%; height: 100%;">
+    <div class="section_3_card" >
+      <div class="wrap_1" >
+        <h1>แผนกบัญชี </h1>
+        <div class="wrap_block" >
+          <div style="border-bottom: 2px dashed;height: 95%;"><div class="block_img" style="background: linear-gradient(to bottom,#23252700,#f0f8ff00,#012f5d),url(./Sorce/Logo/employee1.png); position: relative;"><span style="color: white;position: absolute;bottom: 0;left: 26%;font-size: 1.5rem;text-align: center;font-weight: inherit;">NARUEMON <br>THALASRI</span></div></div>
+          <div style="align-items: end; display: flex;border-top: 2px dashed;height: 95%;align-self: end;"><div style="width: 100%;height: 80%;;box-shadow: 10px 10px 30px rgba(0,0,0,0.5);background-image: url(./Sorce/Logo/employee2.png);background-size: contain;"></div></div>
+          <div style="border-bottom: 2px dashed;height: 95%;"><div style="width: 100%;height: 80%;box-shadow: 10px 10px 30px rgba(0,0,0,0.5);background-image: url(./Sorce/Logo/employee3.png);background-size: contain;"></div></div>
+        </div>
+      </div>
+      <div style="height: 100%;padding: 2rem;background: linear-gradient(to right,#24242400,#0a2c6163); text-align: end;">
+        <h1>แผนกทะเบียน </h1>
+       <div style="width: 100%;height: 100%;position: relative;">
+        <div class="wrap_block" style="right: 10%; position:absolute; ">
+          <div style="border-bottom: 2px dashed;"><div class="block_img" style="background: linear-gradient(to bottom,#23252700,#f0f8ff00,#012f5d),url(./Sorce/Logo/employee4.png); position: relative;"></div></div>
+          <div style=" align-items: end; display: flex;border-top: 2px dashed;"><div class="block_img" style="background: linear-gradient(to bottom,#23252700,#f0f8ff00,#012f5d),url(./Sorce/Logo/employee5.png); position: relative;background-repeat: no-repeat;"></div></div>
+          <div style="border-bottom: 2px dashed;"><div class="block_img" style="background: linear-gradient(to bottom,#23252700,#f0f8ff00,#012f5d),url(./Sorce/Logo/employee6.png); position: relative;background-repeat: no-repeat"></div></div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
 </section>
  
     <footer>

@@ -15,3 +15,19 @@
     height: 30px !important;
     transition:height 1s ease-out;
 }
+
+.nav_small{
+    display: grid;
+  grid-template-columns: 3fr 20fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+} 
+
+@media (max-width: 1000px) {
+    .nav_small{
+        grid-template-columns: 3fr 0fr;
+    }
+
+}

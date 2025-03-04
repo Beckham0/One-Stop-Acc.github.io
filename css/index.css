@@ -51,7 +51,7 @@ footer {
    
      background: none;
      width: 100%; 
-     height: 30vw;
+     height: auto;
   }
   .card1{
     background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(7, 71, 122, 0.56),rgba(10, 127, 163, 0.99),rgb(5, 83, 96),rgb(12, 96, 5)),url('../Sorce/IMG_1448.JPG');
@@ -130,11 +130,108 @@ footer {
     text-shadow: 0px 5px 8px #030303;
     background: linear-gradient(to right,#2c3239,#f0f8ff00);
     width: 80%;
-    padding: 11rem;
+  
     align-items: center;
     display: flex;
     justify-content: center;
     box-shadow: -5px 14px 39px 10px black;
+    min-width: 265px;
+    height: 23vw;
+    min-height: 210px;
 
   }
+  .section_2{
+    display: grid;
+  grid-template-columns: 65% 35%;
+  width: 95%;
+  margin: auto;
+  margin-top: 10%;
+  }
+
+
+
+
+
+
+/* *********************************************** OUR TEAM ****************************************************************  */
+  .our_team{
+    padding-bottom: 2%;
+    margin-top: 15%;
+    height: 30%;
+    align-content: center;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: clamp(30px,4.5vw,60px);
+    border-bottom: 2px dotted #c0d3e5;
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .section_3{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    height: 85vw;
+    width: 100%;
+  }
+
+  .section_3_card{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 4rem;
+  }
+  .wrap_1{
+    height: 100%;
+    padding: 2rem;
+    background: linear-gradient(to left,#24242400,#0a2c6163);
+  }
+
+  .wrap_block{
+    display: grid;
+    width: 55%;
+    height: 88%;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-left: 10%;
+  }
+
+  .block_img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+    background-size: contain !important;
+  }
+
+/* ************************************************************************************************ */
+
+
+  @media (max-width: 1000px) {
+    .section_2{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .section2{
+      margin-top: 15%;
+    }
+
+    .text_card2{
+      padding: 2rem;
+    }
+    .img_card2{
+    
+      width: 62%;
+      min-width: 265px;
+      height: 48vw;
+      min-height: 210px;
+    }
+
+    .img_main{
+      width: 50% !important;
+      position: absolute;
+      min-width: 218px;
+    }
+    #carouselExampleAutoplaying {
+      margin-top: 0px !important;
+    }
+}
 
