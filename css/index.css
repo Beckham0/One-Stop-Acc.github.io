@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background: linear-gradient(to right,rgba(5, 56, 96, 0.61),rgb(31, 141, 155),rgba(5, 96, 58, 0.63)),url(../Sorce/22.png) !important;
+    background: linear-gradient(to right,rgba(5, 56, 96, 0.87),rgb(31, 141, 155),rgba(5, 96, 58, 0.63)),url(../Sorce/22.png) !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -47,7 +47,12 @@ footer {
     font-weight: 400;
     font-style: normal;
   }
-  
+  .section2{
+   
+     background: none;
+     width: 100%; 
+     height: 30vw;
+  }
   .card1{
     background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(7, 71, 122, 0.56),rgba(10, 127, 163, 0.99),rgb(5, 83, 96),rgb(12, 96, 5)),url('../Sorce/IMG_1448.JPG');
     height: 45vw;
@@ -116,6 +121,20 @@ footer {
     display: flex;
     justify-content: center;
     box-shadow: -27px 0px 51px 12px black;
+
+  }
+  .img_card2{
+    font-size: clamp(15px,4.5vw,50px);
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 5px 8px #030303;
+    background: linear-gradient(to right,#2c3239,#f0f8ff00);
+    width: 80%;
+    padding: 11rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: -5px 14px 39px 10px black;
 
   }
 
