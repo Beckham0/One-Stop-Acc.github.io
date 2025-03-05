@@ -171,7 +171,7 @@ footer {
   .section_3{
     margin-top: 5%;
     margin-bottom: 15%;
-    height: 85vw;
+    height: auto;
     width: 100%;
   }
 
@@ -184,6 +184,13 @@ footer {
     height: 100%;
     padding: 2rem;
     background: linear-gradient(to left,#24242400,#0a2c6163);
+    height: 40rem;
+  }
+  .wrap_2{
+    height: 40rem;
+    padding:2rem;
+    background:linear-gradient(to right,#24242400,#0a2c6163);
+    text-align: end;
   }
 
   .wrap_block{
@@ -200,6 +207,52 @@ footer {
     height: 80%;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
     background-size: contain !important;
+    position: relative;
+    background-repeat: no-repeat !important;
+    transform: translateY(90px);
+    opacity: 0;
+    transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .pop_up_img{
+    margin-top: 10rem;
+    transition:margin-top 1s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
+  }
+
+  .show{
+    margin-top: 0;
+    opacity: 1 !important;
+  }
+  .show1{
+    transform: translateY(0px) !important;
+    opacity: 1 !important;
+  }
+
+  .name_employee{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: clamp(15px,4.5vw,25px);
+    text-align: center;
+    font-weight: inherit;
+    background-color: #07408b;
+    left: 0;
+    opacity: 0.8;  
+  }
+
+  .top_block{
+    border-bottom: 2px dashed;
+    height: 95%;
+  }
+  .bottom_block{
+    align-items: end;
+    display: flex;
+    border-top:
+    2px dashed;
+    height: 95%;
+    align-self: end;
   }
 
 /* ************************************************************************************************ */
