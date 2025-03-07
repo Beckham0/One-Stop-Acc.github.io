@@ -68,9 +68,9 @@ footer {
     background-position: right;
   }
   .card3{
-    background:linear-gradient(to left,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0.08),rgba(7, 71, 122, 0.96),rgb(5, 56, 96),rgba(5, 96, 79, 0.87),rgb(5, 56, 96)),url('../Sorce/Logo/picture1.png');
+    background:url('../Sorce/Logo/IMG_1356.JPG');
     height: 50vw;
-    background-color: #007bff;
+    background-color: #242424;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -115,7 +115,7 @@ footer {
     color: #fff;
     text-shadow: 0px 5px 8px #030303;
     background: linear-gradient(to right,#2c3239,#f0f8ff00);
-    width: 100%;
+    width: 60%;
     padding: 4rem;
     align-items: center;
     display: flex;

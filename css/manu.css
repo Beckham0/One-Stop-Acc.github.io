@@ -29,5 +29,9 @@
     .nav_small{
         grid-template-columns: 3fr 0fr;
     }
+    .show {
+        margin-top: 0;
+        opacity: 1 !important;
+      }
 
 }
