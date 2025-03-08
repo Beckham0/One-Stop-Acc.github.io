@@ -48,3 +48,22 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(popUp);
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const popUps = document.querySelectorAll("#account_work2");
+  
+    popUps.forEach(popUp => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            popUp.classList.add("Number");
+           
+          } else {
+            popUp.classList.remove("Number"); // Consider removing this if you only want the animation to trigger once on entry
+          }
+        });
+      });
+  
+      observer.observe(popUp);
+    });
+  });

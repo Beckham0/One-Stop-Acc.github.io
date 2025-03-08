@@ -142,10 +142,16 @@ footer {
   }
   .section_2{
     display: grid;
-  grid-template-columns: 65% 35%;
-  width: 95%;
-  margin: auto;
-  margin-top: 10%;
+    grid-template-columns: 65% 35%;
+    width: 100%;
+    margin-top: auto;
+    margin-top: 10%;
+    background:
+  #07487b8a;
+    padding-top: 10rem;
+    clip-path: polygon(0% 0px, 100% 90px, 99.67% 90.02%, 0px 100%);
+    padding-bottom: 10rem;
+    position: relative;
   }
 
 
