@@ -50,16 +50,16 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const popUps = document.querySelectorAll("#account_work2");
+    const popUps = document.querySelectorAll(".topic_all");
   
     popUps.forEach(popUp => {
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            popUp.classList.add("Number");
+            popUp.classList.add("topic_action");
            
           } else {
-            popUp.classList.remove("Number"); // Consider removing this if you only want the animation to trigger once on entry
+            popUp.classList.remove("topic_action"); // Consider removing this if you only want the animation to trigger once on entry
           }
         });
       });
@@ -67,3 +67,4 @@ document.addEventListener("DOMContentLoaded", () => {
       observer.observe(popUp);
     });
   });
+

@@ -56,9 +56,6 @@ body {
   opacity: 1 !important;
   position: sticky;
 }
-.Number{
-  background: #07457a;
-}
 
 .wrap{
   border-left:13px solid #07457a;
@@ -105,6 +102,18 @@ body {
 .show{
   margin-top: 0;
   opacity: 1;
+}
+.topic_all{
+  color: #07457a ;
+  opacity: 0;
+  transition: color 1s ease-in-out,opacity 1s ease-in-out;
+
+}
+.topic_action{
+ opacity: 1;
+  color: #f7fbff;
+  background:linear-gradient(to right,#005cad,#34638d,#f0f8ff00) !important;
+ 
 }
 @media (max-width: 1000px) {
     .section1{
