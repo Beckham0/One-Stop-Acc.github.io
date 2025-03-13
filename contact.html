@@ -22,6 +22,101 @@
 </head>
 <body>
     <div id="navbar-container" class="navbar-expand-lg"  style="position: sticky;top: 0;z-index: 999;"></div>
+
+
+    <section class="section1" >
+      <div style="height: 46vw;">
+          <h1 style="font-size: clamp(30px,4.5vw,70px); margin-bottom: 15%;">Contact Us</h1>
+      </div>
+      <div style="height: 0;">
+          <div style="background: #084f87;width: 50%;height: 25%;position: absolute;right: 0;-webkit-transform: matrix(1,-0.12,0,1,0,0);"></div>
+          <div class="cover_1" style="background: linear-gradient(to left,#e1e1e1,#f0f8ff00,#f0f8ff00,#f7f7f7),url(./Sorce/IMG_1426.JPG);background-size: cover; background-repeat: no-repeat; background-position: center;background-color: aliceblue;"></div></div>
+   
+      </div>
+     </section>
+
+     <section class="section2">
+      
+        <div class="container" style="height: 90%; width: 100%; background-color: #084f87; position: absolute; margin-top: 35%;text-align: center;">
+          <h1 style="margin-bottom: 5%;">Address</h1>
+          <h1 style="margin-bottom: 5%;" id="Address">บริษัท วันสต๊อป แอ็คเคาท์ติ้ง จำกัด</h1>
+          <div class="wrap_map">
+              <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.3588184668447!2d100.57334687509149!3d13.817479586581255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29dacbdb513b5%3A0xab3efb9ea9c4b9e5!2z4Lit4Liy4LiE4Liy4Lij4Lij4Lix4LiK4LiU4LiyIOC4p-C4seC4mQ!5e0!3m2!1sth!2sth!4v1741700388750!5m2!1sth!2sth" width="100%" height="100%" style="border-radius: 1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+              <div style="align-items: center; display: flex;">
+                <div> <img src="./Sorce/map_icon.png" style="width: 10%;margin-bottom: 5%;">
+                  
+                  <h4>อาคารรัชดาวัน ถนนรัชดาภิเษก
+                    แขวงจันทรเกษม เขตจตุจักร
+                    กรุงเทพมหานคร 10900</h4>
+                </div>
+               
+                
+              </div>
+          </div>
+        </div>
+
+      
+   
+     </section >
+
+     <div style="width: 100%; background: #084f87;justify-content: center;display: flex;  min-height: 700px;">
+      
+      <div  style="width: 100%;background: #ffffffb2; padding-top: 10rem;clip-path: polygon(0% 0px, 100% 90px, 99.67% 90.02%, 0px 100%);padding-bottom: 10rem;position: relative;display: grid;">
+        <h1 style="margin-bottom: 5%;text-align: center;font-size: 5vw;color: #084f87;font-weight: bold;" id="contant">Contant</h1>
+        <div  style="background-image: url(./Sorce/IMG_1412.JPG); background-repeat: no-repeat;background-size: cover;opacity: 0.1; height: 100%;width: 100%;position: absolute;"></div>
+        <div class="container wrap_address" >
+          <img src="./Sorce/Logo/contant.png" style="width: 100%;opacity: 1;z-index: 5;position: relative;">
+          <div style="padding: 3rem; height: 100%;display: grid; z-index: 5;">
+            <div class="contact-item">
+              <img src="./Sorce/icon/phone-call.png" alt="Phone Icon">
+              <h4>062-24425836</h4>
+            </div>
+            
+            <div class="contact-item">
+              <img src="./Sorce/icon/communication(1).png" alt="Email Icon">
+              <h4>kwtc.acc@gmail.com</h4>
+            </div>
+            
+            <div class="contact-item">
+              <img src="./Sorce/icon/communication.png" alt="Facebook Icon">
+              <h4>https://www.facebook.com/k.c.acc</h4>
+            </div>
+       
+          </div>
+        </div>
+        
+      </div>
+     </div>
+
+     <footer style="height: 4rem; position: relative;align-items: center;display: flex;justify-content: end;background: linear-gradient(to right,#053860 40%,#0b65ac,#053560 );">
+      <div style="display: flex;justify-content: end;align-items: center;">
+       <img id="mapIcon" src="./Sorce/map_icon.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+       <img id="mapIcon1" src="./Sorce/icon/communication.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+       <img id="mapIcon2" src="./Sorce/icon/communication(1).png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+       <img id="mapIcon3" src="./Sorce/icon/phone-call.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+  
+      </div>  
+        
+        <img src="./Sorce/Logo/IMG_1484_1.PNG" alt="" style="position: absolute; left: 1%;width: 25%;min-width: 250px;"> 
+     </footer>
+ 
+     <script>
+ 
+ 
+       // หากคุณใช้ id
+ document.getElementById('mapIcon').addEventListener('click', function() {
+   window.location.href = './contact.html#Address';
+ });
+ document.getElementById('mapIcon1').addEventListener('click', function() {
+   window.location.href = 'https://www.facebook.com/k.c.accounting.tax';
+ });
+ document.getElementById('mapIcon2').addEventListener('click', function() {
+   window.location.href = './contact.html#contant';
+ });
+ document.getElementById('mapIcon3').addEventListener('click', function() {
+   window.location.href = './contact.html#contant';
+ });
+ </script>
 </body>
 <script src="./script/scriptMenu.js"></script>
 <script>

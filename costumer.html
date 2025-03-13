@@ -18,24 +18,17 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-position: top !important;">
   <div id="navbar-container" class="navbar-expand-lg"  style="position: sticky;top: 0;z-index: 999;"></div>
-
-
-
-
-
-
-
 
 
    <section class="section1" >
     <div style="height: 46vw;">
-        <h1 style="font-size: clamp(30px,4.5vw,70px);">Costumer</h1>
+        <h1 style="font-size: clamp(30px,4.5vw,70px);margin-bottom: 15%;">Costumer</h1>
     </div>
     <div style="height: 0;">
         <div style="background: #084f87;width: 50%;height: 25%;position: absolute;right: 0;-webkit-transform: matrix(1,-0.12,0,1,0,0);"></div>
-        <div class="cover_1" style="background-color: aliceblue;"><div style="background: linear-gradient(to right,aliceblue,white,#f7f7f7bf,#fff,white),url(./Sorce/IMG_1364.JPG);background-size: contain;background-repeat: no-repeat;background-position: center;background-color: aliceblue;"></div></div>
+        <div class="cover_1" style="background: url(./Sorce/IMG_1364.JPG);background-size: cover;background-repeat: no-repeat;background-position: center;background-color: aliceblue;"></div></div>
         
     </div>
    </section>
@@ -128,7 +121,7 @@
         <div >
         <h4 style="font-size: clamp(15px,4vw,30px);">"บริการประทับใจ ให้คําปรึกษา แก้ปญหาเฉพาะหน้าและปญหา
           ต่างได้เปนอย่างดี ช่วยเรืองวางแผนภาษีของกิจการได้ดี"</h4>
-          <h2>T.O.D HYPERSPECS CO., LTD.</h2>
+          <h2 style="font-size: clamp(15px,2.5vw,35px);color: #c7cc3c;">T.O.D HYPERSPECS CO., LTD.</h2>
         </div>
       </div>
 
@@ -140,7 +133,7 @@
         <div>
           <h4 style="font-size: clamp(15px,4vw,30px);">"คอยให้คําแนะนําเรืองบัญชีและภาษีได้ดีมาก และแก้ไขปญหา
             ต่างได้ดี มีพนักงานคอยตอบคําถามตลอดเวลา"</h4>
-            <h2>KING MODERN HOME CO., LTD.</h2>
+            <h2 style="font-size: clamp(15px,2.5vw,35px);color: #c7cc3c;">KING MODERN HOME CO., LTD.</h2>
         </div>
       </div>
      
@@ -149,7 +142,35 @@
  </section>
 
  
+ <footer style="height: 4rem; position: relative;align-items: center;display: flex;justify-content: end;background: linear-gradient(to right,#053860 40%,#0b65ac,#053560 );">
+  <div style="display: flex;justify-content: end;align-items: center;">
+   <img id="mapIcon" src="./Sorce/map_icon.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+   <img id="mapIcon1" src="./Sorce/icon/communication.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+   <img id="mapIcon2" src="./Sorce/icon/communication(1).png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
+   <img id="mapIcon3" src="./Sorce/icon/phone-call.png" style="width: 3%;min-width: 30px; cursor: pointer; margin-right: 1%;">
 
+  </div>  
+    
+    <img src="./Sorce/Logo/IMG_1484_1.PNG" alt="" style="position: absolute; left: 1%;width: 25%;min-width: 250px;"> 
+ </footer>
+
+ <script>
+
+
+   // หากคุณใช้ id
+document.getElementById('mapIcon').addEventListener('click', function() {
+window.location.href = './contact.html#Address';
+});
+document.getElementById('mapIcon1').addEventListener('click', function() {
+window.location.href = 'https://www.facebook.com/k.c.accounting.tax';
+});
+document.getElementById('mapIcon2').addEventListener('click', function() {
+window.location.href = './contact.html#contant';
+});
+document.getElementById('mapIcon3').addEventListener('click', function() {
+window.location.href = './contact.html#contant';
+});
+</script>
 
 </body>
 <script src="./script/scriptMenu.js"></script>
@@ -201,5 +222,5 @@ createNavbar();
         };
 </script>
 <script src="script/popup.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>

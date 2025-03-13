@@ -32,8 +32,19 @@ footer {
     background: #333;
     color: white;
 }
+.section_1{
+  display: grid;
+  grid-template-columns: none;
+  width: 100%;
+  margin-top: 10%;
+  background:
+#07487b8a;
+  clip-path: polygon(0% 0px, 100% 90px, 99.67% 90.02%, 0px 100%);
+  position: relative;
 
-#carousel_inner{
+}
+
+.carousel_inner{
     transition:top 1.5s ease-in-out ;
     top: -1.5rem;
 }
@@ -55,13 +66,13 @@ footer {
   }
   .card1{
     background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(7, 71, 122, 0.56),rgba(10, 127, 163, 0.99),rgb(5, 83, 96),rgb(12, 96, 5)),url('../Sorce/IMG_1448.JPG');
-    height: 45vw;
+    height: 43vw;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .card2{
     background:linear-gradient(to left,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0.08),rgba(7, 71, 122, 0.96),rgb(5, 56, 96),rgba(5, 96, 79, 0.87),rgb(5, 56, 96)),url('../Sorce/Logo/picture2.png');
-    height: 50vw;
+    height: 100%;
     background-color: #007bff;
     background-repeat: no-repeat;
     background-size: contain;
@@ -110,17 +121,19 @@ footer {
 
   }
   .text_card2{
-    font-size: clamp(15px,4.5vw,50px);
     font-weight: 600;
     color: #fff;
     text-shadow: 0px 5px 8px #030303;
-    background: linear-gradient(to right,#2c3239,#f0f8ff00);
-    width: 60%;
-    padding: 4rem;
+    background:
+  linear-gradient(to right,#2c3239,#f0f8ff00);
+    width: 100%;
+    padding:
+  4rem;
     align-items: center;
     display: flex;
     justify-content: center;
     box-shadow: -27px 0px 51px 12px black;
+    font-size: clamp(6px,2.5vw,35px) !important;
 
   }
   .img_card2{
@@ -154,7 +167,14 @@ footer {
     position: relative;
   }
 
-
+  .bg_long{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0.2% 135px, 99.96% -4px, 100.59% 100%, 0 90%);
+    background:linear-gradient(to right,rgba(5, 56, 96, 0.87),rgb(31, 141, 155),rgba(5, 96, 58, 0.63));
+    right: 0;
+  }
 
 
 
@@ -267,6 +287,19 @@ footer {
 
 
   @media (max-width: 1000px) {
+
+    .section_1{
+      display: grid;
+      grid-template-columns: none;
+      width: 100%;
+      margin-top: 10%;
+      background:#07487b8a;
+      clip-path: polygon(0% 0px, 101.11% 29px, 102.45% 86.31%, 0px 100%);
+      position: relative;
+      left: 0;
+    
+    }
+
     .section_2{
       display: flex;
       flex-direction: column-reverse;
@@ -276,7 +309,7 @@ footer {
     }
 
     .text_card2{
-      padding: 2rem;
+      padding: 1rem;
     }
     .img_card2{
     
@@ -328,6 +361,10 @@ footer {
 
     .wrap_2 {
       text-align: center;
+    }
+
+    .bg_long{
+      clip-path: polygon(-3.77% 37px, 100.59% 2px, 100.38% 98.75%, -25px 86.66%);
     }
     
 }

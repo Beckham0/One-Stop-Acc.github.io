@@ -37,10 +37,10 @@ function createNavbar() {
                  <a class="mx-3 my-auto nav-link active" aria-current="page" href="./index.html">HOME</a>
                </li>
                <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link active" aria-current="page" href="#ABOUT">ABOUT US</a>
+                 <a class="mx-3 my-auto nav-link active" aria-current="page" href="./index.html#ABOUT">ABOUT US</a>
                </li>
                <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link" href="#OUR_TEAM">OUR TEAM</a>
+                 <a class="mx-3 my-auto nav-link" href="./index.html#OUR_TEAM">OUR TEAM</a>
                </li>
                <li class="nav-item">
                  <a class="mx-3 my-auto nav-link" href="./services.html">SERVICES</a>
