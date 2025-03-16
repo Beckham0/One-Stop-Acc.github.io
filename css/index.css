@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background: linear-gradient(to right,rgba(5, 56, 96, 0.87),rgb(31, 141, 155),rgba(5, 96, 58, 0.63)),url(../Sorce/22.png) !important;
+    /*background: linear-gradient(to right,rgba(5, 56, 96, 0.87),rgb(31, 141, 155),rgba(5, 96, 58, 0.63)),url(../Sorce/22.png) !important;*/
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -60,13 +60,13 @@ header {
      height: auto;
   }
   .card1{
-    background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(7, 71, 122, 0.56),rgba(10, 127, 163, 0.99),rgb(5, 83, 96),rgb(12, 96, 5)),url('../Sorce/IMG_1448.JPG');
+    background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(209, 231, 249, 0.56),rgba(234, 227, 123, 0.99),rgb(255, 242, 54),#f4dc00),url('../Sorce/IMG_1448.JPG');
     height: 43vw;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .card2{
-    background:linear-gradient(to left,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0.08),rgba(7, 71, 122, 0.96),rgb(5, 56, 96),rgba(5, 96, 79, 0.87),rgb(5, 56, 96)),url('../Sorce/Logo/picture2.png');
+    background:linear-gradient(to left,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0.08),rgba(7, 71, 122, 0.96),rgb(5, 56, 96),rgba(5, 96, 79, 0.87),rgb(244, 218, 0)),url('../Sorce/Logo/picture2.png');
     height: 100%;
     background-color: #007bff;
     background-repeat: no-repeat;

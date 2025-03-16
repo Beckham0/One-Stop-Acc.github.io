@@ -73,6 +73,8 @@ body {
   }
   
   ***********************************************************************
+
+
    .nav-item {
     margin: auto 200px;
   }
@@ -82,7 +84,7 @@ body {
     top: 0px!important;
     box-shadow: -1px 13px 20px -19px;
     width: auto;
-    height: 100px;
+    height: 120px;
   }
   
   .navbar-nav {
@@ -108,7 +110,7 @@ body {
   
   .nav-link{
     font-weight: bolder !important;
-    color: #f4b400!important;
+    color: #f4b400 !important;
     border-radius: 50px;
   
   }
