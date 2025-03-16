@@ -1,12 +1,12 @@
 function createNavbar() {
     const navbarHTML = `
     
-<div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 90px;">
-  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: rgb(255, 255, 255) !important; height: 90px;">
+<div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 100px;">
+  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: rgba(255, 255, 255, 0.53) !important; height: 100px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-        <img src="./Sorce/Logo/IMG_1450-1.png" style="border-radius: 0px;" width="70" height="70">
+        <img src="./Sorce/Logo/IMG_1450-1.png" style="border-radius: 0px;" width="80" height="90">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
