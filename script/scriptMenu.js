@@ -1,65 +1,51 @@
 function createNavbar() {
     const navbarHTML = `
     
-       <nav class="navbar navbar-expand-lg p-0 " style="position: sticky;top: 0;z-index: 999;">
-        <div class="container-fluid p-0" style="display: flex;flex-direction: column;width: 100%;">
+<div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 90px;">
+  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: rgb(255, 255, 255) !important; height: 90px;">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      <!-- โลโก้ -->
+      <a class="navbar-brand" href="./index.html">
+        <img src="./Sorce/Logo/IMG_1450-1.png" style="border-radius: 0px;" width="70" height="70">
+      </a>
 
+      <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
+      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 120px; background-color:#f4b400; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 50px;">
+        ติดต่อเรา
+      </a>
 
-          <div id="navbarNav1"  class=" navbarNav collapse navbar-collapse w-100 " style="background: linear-gradient(to right,#053860 40%,#0b65ac,#053560 );justify-content: end;padding-right: 1rem; overflow: hidden; height: 0px; transition:height 0.5s ease-out;" >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active p-1" aria-current="page" href="#">translate</a>
-              </li>     
-              <li class="nav-item">
-                <a class="nav-link p-1" href="#">TH</a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link p-1" href="#">EN</a>
-              </li>
-            
-            </ul>
-          </div>
-         
-          <div class="nav_small" >
-           <div style="justify-content: center;display: flex;"> <img class="navbar-brand" src="./Sorce/Logo/IMG_1450-1.png" alt="" style="width: 4rem;margin-left: 5rem;"></div>
-          
-          <div class="jc-end navbar-toggler" style="border: none;">    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>      
-          </div>
-          
+      <!-- ปุ่มเปิดเมนูบนมือถือ -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">MENU</span>
+      </button>
 
-           <div class="collapse navbar-collapse w-100" style="justify-content: end;" id="navbarNav">
-             <ul class="navbar-nav manu_bar">
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link active" aria-current="page" href="./index.html">HOME</a>
-               </li>
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link active" aria-current="page" href="./index.html#ABOUT">ABOUT US</a>
-               </li>
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link" href="./index.html#OUR_TEAM">OUR TEAM</a>
-               </li>
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link" href="./services.html">SERVICES</a>
-               </li>
-             
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link" href="./costumer.html">COSTUMER</a>
-               </li>
-             
-               <li class="nav-item">
-                 <a class="mx-3 my-auto nav-link" href="./contact.html">CONTACT</a>
-               </li>
-             
-             </ul>
-           </div>
-          </div>
-         
-        </div>
-      </nav>
+      <!-- กล่องเมนู -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a id="lang_Home" class="nav-link a" href="./index.html">หน้าเเรก</a></li>
+          <li class="nav-item"><a id="lang_about" class="nav-link b" href="">เกี่ยวกับเรา</a></li>
+          <li class="nav-item dropdown">
+            <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              บริการเรา
+            </a>
+            <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
+              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">บริการงานทะเบียน</a></li></ul>
+          </li>
+          <li class="nav-item"><a id="lang_news" class="nav-link d" href="">ข่าวสาร</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+
+      <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
+      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/mdboY3IOZG" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
+        ติดต่อเรา
+      </a>
+    </div>
+  </nav>
+</div>
     `;
     document.getElementById("navbar-container").innerHTML = navbarHTML;
   
@@ -115,6 +101,10 @@ function createNavbar() {
             margin: 0;
             font-weight: bold;
           }
+
+                          a {
+    text-decoration: none;
+}
   
           p {
             font-size: 19px;
