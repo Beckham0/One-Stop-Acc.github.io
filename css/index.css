@@ -60,7 +60,7 @@ header {
      height: auto;
   }
   .card1{
-    background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(209, 231, 249, 0.56),rgba(234, 227, 123, 0.99),rgb(255, 242, 54),#f4dc00),url('../Sorce/IMG_1448.JPG');
+    background: linear-gradient(to right,rgba(5, 56, 96, 0),rgba(23, 163, 194, 0),rgba(209, 231, 249, 0.56),rgba(234, 227, 123, 0.99),#ddb823,#ddb823),url('../Sorce/IMG_1448.JPG');
     height: 43vw;
     background-repeat: no-repeat;
     background-size: contain;
@@ -204,15 +204,13 @@ header {
     height: 30%;
     align-content: center;
     text-align: center;
-    color: #000;
+    color: #ddb823;
     font-weight: bold;
     font-size: clamp(50px,4.5vw,100px);
-    border-bottom:
-  2px dotted #000;
+    border-bottom:2px dotted #ddb823;
     width: 90%;
-    margin-inline:
-  auto;
-}
+    margin-inline:auto;
+  }
 
 .section_3{
   margin-top: 5%;

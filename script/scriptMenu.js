@@ -29,10 +29,10 @@ function createNavbar() {
               บริการเรา
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับทำบัญชี ปิดงบ ยืนภาษี</a></li>
-              <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">บริการสอบบัญชี</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับวางระบบภาษี</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">บริการงานทะเบียน</a></li></ul>
+              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับดูแลบัญชี ครบวงจร</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">รับวางแผนภาษี</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับจดทะเบียนธุระกิจ</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">รับทําวีซ่า</a></li></ul>
           </li>
           <li class="nav-item"><a id="lang_news" class="nav-link d" href="">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="">ติดต่อเรา</a></li>
@@ -175,7 +175,7 @@ function createNavbar() {
         <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
             <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
-            <h4>บริษัท เอ็นอาร์พี มายแอคเคานท์ จำกัด</h4>
+            <h4>บริษัม วัน สต๊อป แอคเคาท์ติง </h4>
             <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
             <p>โทร: 062-896-4535</p>
             <p>อีเมล: nrp.acc48@gmail.com</p>
@@ -193,10 +193,10 @@ function createNavbar() {
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
             <h3>บริการเรา</h3>
-            <a href="./รับทำบัญชี ปิดงบ ยืนภาษี.html"><p>● รับทำบัญชี ปิดงบ ยื่นภาษี</p></a>
-            <a href="./บริการสอบบัญชี.html"><p>● บริการสอบบัญชี</p></a>
-            <a href="./รับวางระบบภาษี.html"><p>● รับวางระบบภาษี</p></a>
-            <a href="./บริการงานทะเบียน.html"><p>● บริการงานทะเบียน</p></a>
+            <a href="./รับทำบัญชี ปิดงบ ยืนภาษี.html"><p>● รับดูแลบัญชี ครบวงจร</p></a>
+            <a href="./บริการสอบบัญชี.html"><p>● รับวางแผนภาษี</p></a>
+            <a href="./รับวางระบบภาษี.html"><p>● รับจดทะเบียนธุระกิจ</p></a>
+            <a href="./บริการงานทะเบียน.html"><p>● รับทําวีซ่า</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
