@@ -34,8 +34,8 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับจดทะเบียนธุระกิจ</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">รับทําวีซ่า</a></li></ul>
           </li>
-          <li class="nav-item"><a id="lang_news" class="nav-link d" href="">ข่าวสาร</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="">ติดต่อเรา</a></li>
+          <li class="nav-item"><a id="lang_news" class="nav-link d" href="contact.html">ข่าวสาร</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
 
@@ -187,7 +187,7 @@ function createNavbar() {
             <a href="./index.html"><p>หน้าเเรก</p></a>
             <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
             <a href="./info.html"><p><p>ข่าวสาร</p></p></a>
-            <a href="./contact.html"><p>ติดต่อเรา</p></a>
+            <a href="./ติดต่อเรา.html"><p>ติดต่อเรา</p></a>
         </div>
     
         <!-- คอลัมน์สาม : บริการของเรา -->
