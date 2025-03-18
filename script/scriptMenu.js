@@ -185,9 +185,9 @@ function createNavbar() {
         <div class="footer-column">
             <h3>เมนู</h3>
             <a href="./index.html"><p>หน้าเเรก</p></a>
-            <a href="./Our_about.html"><p>เกี่ยวกับเรา</p></a>
+            <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
             <a href="./info.html"><p><p>ข่าวสาร</p></p></a>
-            <a href="./contact_us.html"><p>ติดต่อเรา</p></a>
+            <a href="./contact.html"><p>ติดต่อเรา</p></a>
         </div>
     
         <!-- คอลัมน์สาม : บริการของเรา -->
@@ -202,7 +202,7 @@ function createNavbar() {
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
-            <p style="margin: 0;">โทร: 062-896-4535</p>
+            <p style="margin: 0;">โทร: 085 123 4567</p>
             <p>Line ID: nrp_myacc</p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
