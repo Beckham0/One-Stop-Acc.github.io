@@ -29,18 +29,18 @@ function createNavbar() {
               บริการเรา
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="รับทำบัญชี ปิดงบ ยืนภาษี.html">รับดูแลบัญชี ครบวงจร</a></li>
-              <li><a id="lang_item2" class="dropdown-item c2" href="บริการสอบบัญชี.html">รับวางแผนภาษี</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="รับวางระบบภาษี.html">รับจดทะเบียนธุระกิจ</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="บริการงานทะเบียน.html">รับทําวีซ่า</a></li></ul>
+              <li><a id="lang_item1" class="dropdown-item c1" href="">รับดูแลบัญชี ครบวงจร</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="">รับวางแผนภาษี</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="">รับจดทะเบียนธุระกิจ</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="">รับทําวีซ่า</a></li></ul>
           </li>
-          <li class="nav-item"><a id="lang_news" class="nav-link d" href="contact.html">ข่าวสาร</a></li>
+          <li class="nav-item"><a id="lang_news" class="nav-link d" href="">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
 
       <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
-      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/mdboY3IOZG" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
+      <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
         ติดต่อเรา
       </a>
     </div>
@@ -176,9 +176,9 @@ function createNavbar() {
         <div class="footer-column">
             <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
             <h4>บริษัม วัน สต๊อป แอคเคาท์ติง </h4>
-            <p>115/8 หมู่บ้านพฤกษา รังสิต-วงแหวน</p>
-            <p>โทร: 062-896-4535</p>
-            <p>อีเมล: nrp.acc48@gmail.com</p>
+            <p></p>
+            <p>โทร: 085 123 4567</p>
+            <p>อีเมล: </p>
         </div>
     
         <!-- คอลัมน์สอง : เมนู -->
@@ -186,24 +186,24 @@ function createNavbar() {
             <h3>เมนู</h3>
             <a href="./index.html"><p>หน้าเเรก</p></a>
             <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
-            <a href="./info.html"><p><p>ข่าวสาร</p></p></a>
+            <a href="#"><p><p>ข่าวสาร</p></p></a>
             <a href="./ติดต่อเรา.html"><p>ติดต่อเรา</p></a>
         </div>
     
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
             <h3>บริการเรา</h3>
-            <a href="./รับทำบัญชี ปิดงบ ยืนภาษี.html"><p>● รับดูแลบัญชี ครบวงจร</p></a>
-            <a href="./บริการสอบบัญชี.html"><p>● รับวางแผนภาษี</p></a>
-            <a href="./รับวางระบบภาษี.html"><p>● รับจดทะเบียนธุระกิจ</p></a>
-            <a href="./บริการงานทะเบียน.html"><p>● รับทําวีซ่า</p></a>
+            <a href="#"><p>● รับดูแลบัญชี ครบวงจร</p></a>
+            <a href="#"><p>● รับวางแผนภาษี</p></a>
+            <a href="#"><p>● รับจดทะเบียนธุระกิจ</p></a>
+            <a href="#"><p>● รับทําวีซ่า</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
             <p style="margin: 0;">โทร: 085 123 4567</p>
-            <p>Line ID: nrp_myacc</p>
+            <p>Line ID: </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
