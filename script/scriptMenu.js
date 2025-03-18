@@ -23,7 +23,7 @@ function createNavbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a id="lang_Home" class="nav-link a" href="./index.html">หน้าเเรก</a></li>
-          <li class="nav-item"><a id="lang_about" class="nav-link b" href="">เกี่ยวกับเรา</a></li>
+          <li class="nav-item"><a id="lang_about" class="nav-link b" href="./about_us.html">เกี่ยวกับเรา</a></li>
           <li class="nav-item dropdown">
             <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               บริการเรา
@@ -204,8 +204,8 @@ function createNavbar() {
             <h3>ติดต่อเรา</h3>
             <p style="margin: 0;">โทร: 062-896-4535</p>
             <p>Line ID: nrp_myacc</p>
-            <img class="qr-code" src="Source/Qr.jpg" alt="QR Code">
-            <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Source/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
+            <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
+            <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
     </footer>
     
