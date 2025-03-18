@@ -356,7 +356,7 @@
   
   @media (max-width: 768px) {
   
-    .container {
+    .container_202 {
       max-width: 1559px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
