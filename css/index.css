@@ -154,6 +154,15 @@ header {
     position: relative;
   }
 
+  .section_index {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    margin-top: auto;
+    background: #e3c23c;
+    position: relative;
+  }
+
   .bg_long{
     position: absolute;
     width: 100%;
