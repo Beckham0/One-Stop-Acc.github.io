@@ -29,7 +29,7 @@ function createNavbar() {
               บริการเรา
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="">รับดูแลบัญชี ครบวงจร</a></li>
+              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">รับดูแลบัญชี ครบวงจร</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="">รับวางแผนภาษี</a></li>
               <li><a id="lang_item3" class="dropdown-item c3" href="">รับจดทะเบียนธุระกิจ</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="">รับทําวีซ่า</a></li></ul>
