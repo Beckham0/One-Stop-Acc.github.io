@@ -22,7 +22,7 @@
     color: #ffffff;
     text-shadow: 0px 5px 12px #030303;
     margin: auto;
-    font-size: clamp(50px,5vw,90px) !important;
+    font-size: clamp(36px,5vw,90px) !important;
   }
 
 

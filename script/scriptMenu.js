@@ -10,7 +10,7 @@ function createNavbar() {
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
-      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 120px; background-color:#f4b400; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 50px;">
+      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 120px; background-color:#f4b400; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 10px;">
         ติดต่อเรา
       </a>
 
@@ -34,7 +34,6 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="">รับจดทะเบียนธุระกิจ</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="">รับทําวีซ่า</a></li></ul>
           </li>
-          <li class="nav-item"><a id="lang_news" class="nav-link d" href="">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
@@ -186,7 +185,6 @@ function createNavbar() {
             <h3>เมนู</h3>
             <a href="./index.html"><p>หน้าเเรก</p></a>
             <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
-            <a href="#"><p><p>ข่าวสาร</p></p></a>
             <a href="./ติดต่อเรา.html"><p>ติดต่อเรา</p></a>
         </div>
     
