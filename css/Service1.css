@@ -207,14 +207,14 @@ header {
     text-align: center;
     color: #1f1c17;
     font-weight: bold;
-    font-size: clamp(10px,3.5vw,45px);
+    font-size: clamp(10px,2.5vw,35px);
     text-shadow: 0px 5px 12px #888;
     white-space: nowrap;
     margin:auto;
 }
 
 .li_Service{
-    font-size: clamp(25px, 4.5vw, 40px);
+    font-size: clamp(20px, 4.5vw, 35px);
   margin-top: 10px;
   color: #000;
   margin-top: 5%;
@@ -332,6 +332,22 @@ header {
   bottom: 0;
 }
 
+.block_service{
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 5%;
+  height: 60vw;
+}
+.card_service{
+  width: 75%;
+  height: 45vw;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  margin:auto;
+}
 @media (min-width: 1200px) {
   .h1, h1 {
     font-size: 2.7rem;
@@ -342,7 +358,20 @@ header {
 
 
 @media (max-width: 1000px) {
+  .block_service{
+    height: 220vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 
+  }
+
+  .card_service{
+    width: 100% !important;
+    height: auto !important;
+    display: grid;
+    grid-template-rows: none;
+    margin:auto;
+  }
   .section_1{
     display: grid;
     grid-template-columns: none;
