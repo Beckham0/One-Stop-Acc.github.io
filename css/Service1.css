@@ -333,12 +333,12 @@ header {
 }
 
 .block_service{
-  margin-top: 15%;
+  margin-top: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  grid-gap: 5%;
+  grid-gap: 1%;
   height: 60vw;
 }
 .card_service{
