@@ -2,7 +2,7 @@ function createNavbar() {
     const navbarHTML = `
     
 <div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 120px;">
-  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: rgba(255, 255, 255, 0.53) !important; height: 120px;">
+  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: black !important; !important; height: 120px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
@@ -34,6 +34,8 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="">รับจดทะเบียนธุระกิจ</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="">รับทําวีซ่า</a></li></ul>
           </li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ลูกค้าเรา</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
