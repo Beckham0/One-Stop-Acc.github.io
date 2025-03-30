@@ -34,8 +34,8 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="">รับจดทะเบียนธุระกิจ</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="">รับทําวีซ่า</a></li></ul>
           </li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ลูกค้าเรา</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ข่าวสาร</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา.html">ลูกค้าเรา</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร.html">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
@@ -108,7 +108,7 @@ function createNavbar() {
 }
   
           p {
-            font-size: 19px;
+            font-size: 17px;
             color: #ffffff;
             margin: 0;
           }
@@ -177,8 +177,8 @@ function createNavbar() {
         <div class="footer-column">
             <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
             <h4>บริษัม วัน สต๊อป แอคเคาท์ติง </h4>
-            <p></p>
-            <p>โทร: 085 123 4567</p>
+            <p>546 อาคารรัชดาวัน ชั้นที่ 7 ห้องเลขที่ 7-01 ถนนรัชดาภิเษก แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900</p>
+            <p>โทร: 06-2362-4269 คุณกุ๊ก</p>
             <p>อีเมล: </p>
         </div>
     
@@ -202,10 +202,10 @@ function createNavbar() {
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
-            <p style="margin: 0;">โทร: 085 123 4567</p>
+            <p style="margin: 0;">โทร: 06-2362-4269 คุณกุ๊ก</p>
             <p>Line ID: </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
-            <a href="https://www.facebook.com/people/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5-%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%97%E0%B9%8C-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94/100070207682246/?rdid=DkqLQSuGREsL0orp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19tFBpR9mQ%2F"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
+            <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
     </footer>
     
