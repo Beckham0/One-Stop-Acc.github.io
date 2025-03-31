@@ -2,7 +2,7 @@ function createNavbar() {
     const navbarHTML = `
     
 <div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 120px;">
-  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: black !important; !important; height: 120px;">
+  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: #222 !important; !important; height: 120px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
