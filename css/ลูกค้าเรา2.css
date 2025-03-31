@@ -710,3 +710,19 @@
       width: 54px;
       height: 54px;
       }
+
+
+
+
+.GalleryT{
+  margin: 0 10%;
+}
+
+
+@media (max-width: 768px) {
+
+  .GalleryT{
+    margin: 0 5%;
+  }
+
+}
