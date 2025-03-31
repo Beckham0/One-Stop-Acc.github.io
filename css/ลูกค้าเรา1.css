@@ -214,8 +214,7 @@ header {
     text-align: center;
     color: #ddb823;
     font-weight: bold;
-    font-size: clamp(50px,4.5vw,100px);
-    border-bottom:2px dotted #ddb823;
+    font-size: clamp(40px,4.5vw,100px);
     width: 90%;
     margin-inline:auto;
   }
