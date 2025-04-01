@@ -687,7 +687,6 @@
   gap: 20px;
   margin: 0px 200px;
   padding: 27px;
-  align-items: center;
 }
 
 .service-box {
@@ -712,7 +711,7 @@
 }
 
 .service-box h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 19px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -722,7 +721,7 @@
 
 .service-box p {
   padding: 5px 30px;
-  font-size: 21px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 010px;
   line-height: 1.2;
@@ -730,96 +729,6 @@
   text-align: start;
 }
 
-@media (max-width: 768px) {
-
-  .container_202 {
-    max-width: 1559px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    gap: 17px;
-    padding: 0 40px;
-    margin: 0;
-  }
-
-
-  .service-box {
-    font-size: 27px;
-    margin-top: 13px;
-    font-weight: bold;
-    margin-bottom: 0;
-    line-height: 1.2;
-    color: white;
-<<<<<<< Updated upstream
-=======
-    border-radius:10px;
-    overflow:hidden;
-    text-align: center;
-    height: 530px;
->>>>>>> Stashed changes
-  }
-
-  .service-box img {
-    width: 100%;
-    height: 210px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    /* เพิ่ม transition เพื่อให้การเปลี่ยนแปลงสมูท */
-  }
-
-  .service-box img:hover {
-    transform: scale(1.1);
-    /* ขยายรูปภาพ 110% เมื่อ hover */
-  }
-
-  .service-box h1 {
-<<<<<<< Updated upstream
-    font-size: 27px;
-    margin-top: 13px;
-=======
-    font-size: 40px;
-    margin-top: 19px;
->>>>>>> Stashed changes
-    font-weight: bold;
-    margin-bottom: 0;
-    line-height: 1.2;
-    color: white;
-  }
-
-  .service-box p {
-<<<<<<< Updated upstream
-    padding: 20px;
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 20px;
-=======
-    padding:5px 30px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 010px;
->>>>>>> Stashed changes
-    line-height: 1.2;
-    color: white;
-    text-align: start;
-  }
-<<<<<<< Updated upstream
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
-=======
   
   @media (max-width: 768px) {
   
@@ -871,8 +780,6 @@
       color: rgb(0, 0, 0);
       text-align: start;
     }
->>>>>>> Stashed changes
-  }
 
   to {
     transform: translateX(-100%);
