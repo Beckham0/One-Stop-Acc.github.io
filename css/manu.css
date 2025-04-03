@@ -10,7 +10,78 @@ body {
     background-attachment: fixed !important;
 }
 
+.text_call {
+  cursor: context-menu;
+  position: fixed;
+  z-index: 2;
+  transition: 0.5s all;
+  bottom: 9.3rem;
+  right: 5rem;
+  background: #ffffff;
+  color: #000;
+  padding-inline: 1%;
 
+  border-radius: 30px;
+  opacity: 0.8;
+  padding-block: 0.5%;
+  font-size: 18px;
+ 
+}
+.text_line {
+  cursor: context-menu;
+  position: fixed;
+  z-index: 2;
+  transition: 0.5s all;
+  bottom: 5.5rem;
+  right: 5rem;
+  background: #ffffff;
+  color: #000;
+  padding-inline: 1%;
+
+  border-radius: 30px;
+  opacity: 0.8;
+  padding-block: 0.5%;
+  font-size: 18px;
+
+}
+
+.text_chaty {
+  cursor: context-menu;
+  position: fixed;
+  z-index: 2;
+  transition: 0.5s all;
+  bottom: 1rem;
+  right: 5rem;
+  background: #ffffff;
+  color: #000;
+  padding-inline: 1%;
+
+  border-radius: 30px;
+  opacity: 0.8;
+  padding-block: 0.5%;
+  font-size: 18px;
+  width: 9rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.wrap_call{
+  width: 4rem;
+  height: 3.5rem;
+  position: absolute;
+  right: 0%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: grid;
+  grid-template-columns: 76% 10% 10%;
+}
+
+.wrap_call:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  display: block;
+  width: 14rem;
+}
 .nav-item{
     font-size: clamp(20px,2.5vw,29px);
     text-align: end;
