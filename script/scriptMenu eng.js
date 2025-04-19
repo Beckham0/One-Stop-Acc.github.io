@@ -185,7 +185,7 @@ function createNavbar() {
     
         <!-- คอลัมน์สอง : เมนู -->
         <div class="footer-column">
-            <h3>เมนู</h3>
+            <h3>MENU</h3>
             <a href="./index eng.html"><p>Home</p></a>
             <a href="./about_us eng.html"><p>About Us</p></a>
             <a href="./ติดต่อเรา eng.html"><p>Contact Us</p></a>
@@ -193,7 +193,7 @@ function createNavbar() {
     
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
-            <h3>บริการเรา</h3>
+            <h3>Our services</h3>
             <a href="./Service1 eng.html"><p>● Full-Service Accounting</p></a>
             <a href="./Service2 eng.html"><p>● Tax Planning Services</p></a>
             <a href="./Service3 eng.html"><p>● Business Registration Services</p></a>
