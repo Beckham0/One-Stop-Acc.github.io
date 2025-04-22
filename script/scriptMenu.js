@@ -42,7 +42,7 @@ function createNavbar() {
       </div>
 
       <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
-      <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
+      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/OvcdsMHsCP" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
         ติดต่อเรา
       </a>
     </div>
@@ -208,7 +208,7 @@ function createNavbar() {
             <h3>ติดต่อเรา</h3>
             <p style="margin: 0;">โทร: 062-362-4269</p>
             <p style="margin: 0;">โทร: 081-454-6949</p>
-            <p>Line ID: </p>
+            <p>Line ID: KUKKAI </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
