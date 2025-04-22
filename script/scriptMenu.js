@@ -180,7 +180,8 @@ function createNavbar() {
             <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
             <h4>บริษัม วัน สต๊อป แอคเคาท์ติง </h4>
             <p>546 อาคารรัชดาวัน ชั้นที่ 7 ห้องเลขที่ 7-01 ถนนรัชดาภิเษก แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900</p>
-            <p>โทร: 06-2362-4269 คุณกุ๊ก</p>
+            <p>โทร: 062-362-4269</p>
+            <p>โทร: 081-454-6949</p>
             <p>อีเมล: </p>
         </div>
     
@@ -205,7 +206,8 @@ function createNavbar() {
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
-            <p style="margin: 0;">โทร: 06-2362-4269 คุณกุ๊ก</p>
+            <p style="margin: 0;">โทร: 062-362-4269</p>
+            <p style="margin: 0;">โทร: 081-454-6949</p>
             <p>Line ID: </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>

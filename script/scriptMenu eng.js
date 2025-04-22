@@ -180,7 +180,8 @@ function createNavbar() {
             <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
             <h4>One Stop Accounting Co., Ltd.</h4>
             <p>546 Ratchadawan Building, 7th Floor, Room No. 7-01, Ratchadaphisek Road, Chan Kasem Subdistrict, Chatuchak District, Bangkok 10900</p>
-            <p>Tel: 06-2362-4269 คุณกุ๊ก</p>
+            <p>Tel: 062-362-4269</p>
+            <p>Tel: 081-454-6949</p>
             <p>Email: </p>
         </div>
     
@@ -205,7 +206,8 @@ function createNavbar() {
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>Contact Us</h3>
-            <p style="margin: 0;">Tel: 06-2362-4269 คุณกุ๊ก</p>
+            <p style="margin: 0;">Tel: 062-362-4269</p>
+            <p style="margin: 0;">Tel: 081-454-6949</p>
             <p>Line ID: </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
