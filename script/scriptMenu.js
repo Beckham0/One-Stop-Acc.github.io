@@ -32,7 +32,8 @@ function createNavbar() {
               <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">รับดูแลบัญชี ครบวงจร</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">รับวางแผนภาษี</a></li>
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">รับจดทะเบียนธุระกิจ</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">รับทําวีซ่า</a></li></ul>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">รับทําวีซ่า</a></li>
+              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">รับสอบบัญชี</a></li></ul>
           </li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา.html">ลูกค้าเรา</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร.html">ข่าวสาร</a></li>
@@ -104,9 +105,9 @@ function createNavbar() {
             font-weight: bold;
           }
 
-                          a {
-    text-decoration: none;
-}
+          a {
+            text-decoration: none;
+          }
   
           p {
             font-size: 17px;
@@ -194,10 +195,11 @@ function createNavbar() {
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
             <h3>บริการเรา</h3>
-            <a href="#"><p>● รับดูแลบัญชี ครบวงจร</p></a>
-            <a href="#"><p>● รับวางแผนภาษี</p></a>
-            <a href="#"><p>● รับจดทะเบียนธุระกิจ</p></a>
-            <a href="#"><p>● รับทําวีซ่า</p></a>
+            <a href="./Service1.html"><p>● รับดูแลบัญชี ครบวงจร</p></a>
+            <a href="./Service2.html"><p>● รับวางแผนภาษี</p></a>
+            <a href="./Service3.html"><p>● รับจดทะเบียนธุระกิจ</p></a>
+            <a href="./Service4.html"><p>● รับทําวีซ่า</p></a>
+            <a href="./Service5.html"><p>● รับสอบบัญชี</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->

@@ -32,7 +32,8 @@ function createNavbar() {
               <li><a id="lang_item1" class="dropdown-item c1" href="./Service1 eng.html">Comprehensive Accounting Services</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="./Service2 eng.html">Tax Planning Services</a></li>
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3 eng.html">Business Registration Services</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4 eng.html">Visa Application Services</a></li></ul>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4 eng.html">Visa Application Services</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service5 eng.html">Audit service</a></li></ul>
           </li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา eng.html">Our Customers</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร eng.html">News</a></li>
@@ -198,6 +199,7 @@ function createNavbar() {
             <a href="./Service2 eng.html"><p>● Tax Planning Services</p></a>
             <a href="./Service3 eng.html"><p>● Business Registration Services</p></a>
             <a href="./Service4 eng.html"><p>● Visa Application Services</p></a>
+            <a href="./Service5 eng.html"><p>● Audit service</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
