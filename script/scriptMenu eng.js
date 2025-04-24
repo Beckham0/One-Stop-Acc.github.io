@@ -208,10 +208,12 @@ function createNavbar() {
             <h3>Contact Us</h3>
             <p style="margin: 0;">Tel: 062-362-4269</p>
             <p style="margin: 0;">Tel: 081-454-6949</p>
-            <p>Line ID: KUKKAI </p>
+            <p style="padding-top: 10px;">Line ID : KUKKAI🧡 </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
-        </div>
+            <p style="padding-top: 10px;">We chat : Kukkai 😊古伊一</p>
+            <img class="qr-code" src="Sorce/we1.png" alt="QR Code">
+          </div>
     </footer>
     
     `;
